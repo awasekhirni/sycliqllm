@@ -1,0 +1,60 @@
+
+2025-26 Copyright Beta ORI Inc. Canada. All Rights Reserved.
+Syed, Awase Khirni Ph.D
+
+Comprehensive List of plant science LLM for SycliQ Geospatial Intelligence Platform
+SycliQ LLM 
+
+Literature of top 50 plant science specific LLMs
+
+No#,Model Name,Category,Developer / Institute,Brief Description,Link(s)
+1,PLLaMa,Plant Science LLM,Xianjun Yang et al. (Zhejiang Univ/MSU),"Open-source LLM evolved from LLaMA-2, enhanced with a comprehensive plant science database "24.,arXiv:2401.01600
+2,AgroNT,Plant Genomics,Instadeep / Mendoza-Revilla et al.,Foundational LLM trained on genomes from 48 plant species with a predominant focus on crop species 2.,Nature Comm Biol
+3,PDLLMs,Plant Genomics,Zhang Tao Lab / Liu et al.,"Tailored DNA large language models (e.g., plant-DNABERT, plant-DNAMamba) for analyzing plant genomes "34.,GitHub
+4,PlantGPT,Plant Biology,Zhang et al.,Arabidopsis-based intelligent agent answering specialized plant research questions via Retrieval-Augmented Generation (RAG) 118.,PlantGPT Platform
+5,AgriGPT,Agriculture Ecosystem,Various Researchers,"Large language model ecosystem for agriculture, providing structured reasoning over agricultural data "84.,arXiv:2508.08632
+6,AgroLLM,Agricultural Extension,Ravindran et al.,Domain-governed agricultural knowledge system connecting farmers and agricultural practices 112.,MDPI Agriculture
+7,AgriParam,Agriculture (India),BharatGen,Domain-specialized LLM fine-tuned for India-centric agriculture and farming advisories 47.,Hugging Face
+8,AgriAssist-LLM,Crop Disease,Aditya Adaki et al.,Fine-tuned LLM (based on Llama/Gemma) to assist farmers with plant disease identification and management 71.,GitHub
+9,CropSeek-LLM,Crop Advisory,Persadian,Trained for agricultural contexts including crop advisory reasoning and soil/environmental interpretation 77.,Hugging Face
+10,ChatLD,Crop Disease Diagnosis,Research Teams,Uses language models to diagnose crop diseases without requiring extensive labeled training data 73.,Newswise
+11,ChatLeafDisease,Crop Disease,Pan et al.,Chain-of-thought prompting LLM framework fusing image input and textual description for crop disease classification 92.,PMC
+12,LLMI-CDP,Multimodal Crop Disease,Wang et al.,Large language model for multimodal identification of crop diseases and pests 76.,Nature Sci Rep
+13,AgriSentinel,Crop Disease Alerting,Univ. of Hawaii / Researchers,Privacy-enhanced embedded-LLM crop disease alerting and management system 69.,ScholarSpace
+14,PlantCaFo,Plant Disease Recognition,Jiang et al.,Efficient few-shot plant disease recognition method based on foundation models 83.,SciOpen
+15,AgroMind,Precision Agriculture,MinasCoders,Smart agriculture app and LLM platform for small-scale farmers to access tech and info 134.,AgroMind.io
+16,Insect-Foundation,Agricultural Entomology,Truong et al. / CVIU,Foundation model and large multimodal dataset for vision-language insect understanding 116.,CVIU Project
+17,AgroBench,Agriculture Benchmark,Shinoda et al.,Vision-Language Model benchmark specifically designed for agricultural applications 126.,arXiv:2507.20519
+18,CropWizard,Agricultural Extension,AIFARMS / UIUC,LLM project investigating ways to assist farmers with crop management and high-stakes decisions 26.,CACM
+19,Farm-LightSeek,Edge Agriculture,Umamaheswari et al.,Lightweight LLM-based approach for edge-based agricultural data processing 13.,Frontiers AI
+20,ZEMELA,Cyber-Physical Agriculture,Stoyanov et al.,Framework utilizing LLMs in cyber-physical systems for smart agriculture 115.,IEEE Xplore
+21,ChatAgri,Agricultural Text Classification,Zhao et al.,Explores the potential of ChatGPT on cross-linguistic agricultural text classification 115.,ScienceDirect
+22,AgriBERT,Agricultural NLP,Rezayi et al.,Knowledge-infused agricultural language model for matching food and nutrition data 115.,ResearchGate
+23,AGRONER,Agricultural NER,Veena et al.,Unsupervised agriculture named entity recognition using weighted distributional semantic models 115.,ScienceDirect
+24,PlantScience.ai,Plant Science Virtual Scientist,TSL / Researchers,LLM-powered virtual scientist addressing plant science terminology and source grounding 28.,TSL Publications
+25,PlantGFM,Plant Genomics,Researchers,Plant genomic foundation model pre-trained on 12 species for gene prediction and de novo gene design 102.,Adv. Science
+26,DNABERT (Plant-adapted),Plant Genomics,Zhang Tao Lab,Plant foundation DNA large language models adapted from DNABERT for plant genomic sequences 120.,Hugging Face
+27,Nucleotide Transformer (NTv3),Multi-species Genomics,Instadeep,"Multi-species genomics foundation model unifying representation learning, applied to plant functional genomics "122.,GitHub
+28,HyenaDNA,Genomic Foundation Model,HazyResearch (Stanford),Long-range genomic foundation model applicable to plant DNA sequence modeling at single-nucleotide resolution 128.,GitHub
+29,Cucumber Disease MLLM,Multimodal Plant Disease,Cao et al.,Image-text-label-based multi-modal language model for cucumber disease recognition with small samples 116.,ScienceDirect
+30,Potato Disease MLLM,Multimodal Plant Disease,Zhu et al.,Multimodal AI and large language model for potato disease detection and prevention 116.,ScienceDirect
+31,AgriM-LLM,Multimodal Agriculture,Ahmedm et al.,Agriculture-specific multimodal LLM demonstrating high accuracy in disease and pest identification 68.,Preprints.org
+32,StructGPT (Agri-adapted),Structured Agri Data,Jin et al.,General framework for LLMs to reason over structured agricultural data 84.,arXiv:2305.09645
+33,Agri-LLM Raw Dataset Models,Plant Disease Vision,9North Group / AI Field Guide,Models trained on publicly hosted image datasets of diseased and healthy plant leaves 75.,AI Field Guide
+34,Leaf Only SAM,Plant Vision Foundation,Williams et al.,"Segment Anything Pipeline for zero-shot automated leaf segmentation, often paired with LLMs "116.,arXiv:2305.09418
+35,AgroMind VQA,Agricultural Remote Sensing,Voxel51,Comprehensive agricultural remote sensing visual-question-answering benchmark and models 114.,Hugging Face
+36,GPT-aided YOLOPC,Agricultural Image Diagnosis,Qing et al.,GPT-aided diagnosis on agricultural images based on a new light YOLOPC framework 115.,ScienceDirect
+37,Smart-Insect Monitoring GPT,Agricultural Entomology,Moustafa,Smart-insect monitoring system integration and interaction via AI cloud deployment and GPT 115.,ScholarWorks
+38,Coffee Leaf Disease RAG-LLM,Crop Disease Remediation,Kumar et al.,RAG-driven precision LLM framework for coffee leaf disease remediation 115.,IEEE Xplore
+39,Agricultural Text-to-Speech LLM,Agri-Tech,Li et al.,Deep learning-based end-to-end system for agricultural text-to-speech and word segmentation 115.,ScienceDirect
+40,Knowledge-Guided Agri-LLM,Agricultural Knowledge,Jiang et al.,Knowledge assimilation framework implementing a knowledge-guided agricultural large language model 116.,ScienceDirect
+41,Landscape Pest Q&A LLM,Pest Management,Gu et al.,Construction of Q&A methods based on knowledge graphs and LLMs for landscape pest and disease accuracy 116.,ScienceDirect
+42,Crop Production RL-LLM,Crop Management,Chen & Huang,Integrating reinforcement learning and LLMs for crop production process management optimization 116.,ScienceDirect
+43,Multi-Agent Agri-LLM,Agricultural Intelligence,Zhao et al.,Multi-agent LLM architectures combining deep semantic understanding with distributed collaboration for agriculture 52.,SciOpen
+44,Genomic Language Model (gLM),Plant Genomics,Various Researchers,"Genomic language models learning from diverse metagenomic data, applied to plant genome-wide variant effect prediction "64.,EurekAlert
+45,PlantDNA-LLMs Suite,Plant Genomics,9North Group / Researchers,"Suite of plant DNA large language models (plant-DNAGPT, plant-DNAGemma, plant-NT) predicting plant DNA behavior "124.,AI Field Guide
+46,AI Field Guide Agri-LLM,Plant Disease,9North Group,Recognizing plant disease from leaf photos using LLM-assisted vision models across crops and symptoms 75.,AI Field Guide
+47,Farm Management Insight LLM,Farm Management,Conley & Lo (UW-Madison),Innovative approach using LLMs for farm management insights and decision support 53.,UW Extension
+48,GAIA,Agricultural Extension,IFPRI,Framework and models assessing LLM performance and safety in agricultural extension services 55.,IFPRI
+49,AIIRA Digital Twin LLM,Crop Science,Iowa State University,AI tools developing digital twins of individual crop plants and entire farm fields 59.,AIIRA
+50,Binder Optimization LLM,Agricultural Chemistry,Rowan Science,LLMs given access to a Python sandbox for optimizing agricultural binder molecules and crop chemistry 19.,Rowan Science
