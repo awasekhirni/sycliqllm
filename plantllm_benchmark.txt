@@ -1,0 +1,22 @@
+
+2025-26 Copyright Beta ORI Inc. Canada. All Rights Reserved.
+Syed, Awase Khirni Ph.D
+
+No,Benchmark,Description,Category,Specialized Plant LLM (Best),Top Proprietary LLM,Top Open-Source LLM,Metric
+1,AgroBench,"Expert-annotated benchmark evaluating vision-language models across 7 agricultural topics, covering 203 crops and 682 diseases "11.,Multimodal Crop Disease & Agronomy,AgriM-LLM / AgroNVILA,GPT-4o,Qwen2-VL-72B,Accuracy / F1-Score
+2,AgroMind,"Comprehensive multimodal benchmark for agricultural remote sensing, covering spatial perception, object understanding, scene understanding, and change detection "49.,Agricultural Remote Sensing,AgroNVILA,Gemini 1.5 Pro,LLaVA-NeXT-34B,Overall Accuracy / mIoU
+3,AgMMU,"Real-world benchmark with 5,460+ samples evaluating VLMs on crop diseases, pest identification, weed recognition, and nutrient deficiency "59.,Multimodal Crop Diagnosis,AgriDoctor / AgriM-LLM,Claude 3.5 Sonnet,Qwen2-VL-72B,Exact Match / Accuracy
+4,Plant Genomic Benchmark (PGB),"Comprehensive benchmark for deep learning-based methods in plant genomic research, evaluating tasks like promoter strength and gene prediction "69.,Plant Genomics,AgroNT / PDLLMs,N/A (General LLMs lack DNA tokenization),DNABERT-2 / HyenaDNA,AUROC / Pearson Correlation
+5,CROP Benchmark,"Benchmark assessing LLMs' proficiency in crop science Q&A, exceeding prior benchmarks in quantity and regional coverage of agricultural data "47.,Agricultural Q&A / Crop Science,PLLaMa,GPT-4,Llama-3-70B-Instruct,Exact Match / BLEU-4
+6,AgriEval,"Comprehensive Chinese agricultural benchmark spanning crop cultivation, pest management, and agricultural economics scenarios "40.,Agricultural Q&A (Regional),AgriParam / Qwen-Agri,GPT-4,Qwen2.5-72B-Instruct,Accuracy / ROUGE-L
+7,AgriBench,"Hierarchical agriculture benchmark for multimodal large language models, testing fine-grained understanding of complex agricultural scenes "18.,Multimodal Agriculture,PlantCaFo,GPT-4V,LLaVA-1.6-34B,VQA Accuracy
+8,AgroTools,"Benchmark for tool-augmented multimodal agents in agriculture, evaluating the ability to use external APIs (e.g., weather, soil databases) for agronomic tasks "57.,Agentic AI / Tool Use,CropWizard,GPT-4o (w/ Code Interpreter),Qwen2.5-72B-Instruct (w/ ReAct),Task Success Rate
+9,AgReason,"Benchmark for large reasoning models in agriculture, focusing on crop-related, abiotic stress, and plant/seed health logical reasoning chains "46.,Agricultural Reasoning,PlantGPT,o1-preview / Claude 3.5 Sonnet,Llama-3.1-405B-Instruct,Reasoning Accuracy / Pass@1
+10,Genomic Touchstone,Benchmark evaluating genomic language models on long-context DNA sequences and functional genomics prediction tasks across species 23.,Plant Genomics / Long-Context,Plant-DNABERT / PlantGFM,N/A,HyenaDNA / Nucleotide Transformer,AUROC / F1-Score
+11,AI AgriBench (Evja),"First LLM benchmark dedicated to the agricultural sector, drawing on land-grant university data for crop disease, nutrient management, and safety compliance "42.,Agronomy Q&A,AgroLLM,GPT-4,Llama-3-70B-Instruct,Multiple-Choice Accuracy
+12,AgriMM,"Multimodal benchmark specifically designed for fine-grained crop disease diagnosis, lesion localization, and bilingual agricultural knowledge retrieval "32.,Multimodal Plant Health,LLMI-CDP,GPT-4V,Qwen-VL-Chat,Dice Coefficient / Accuracy
+13,LAMBDA,"Prophage and functional element detection benchmark for genomic language models, comparing AI performance against traditional bioinformatics tools in plant/microbial genomics "25.,Plant/Microbial Genomics,Nucleotide Transformer v3,N/A,DNABERT-2,Precision / Recall
+14,AgroOmni,Large-scale multi-view agricultural dataset and benchmark for cross-view agricultural remote sensing and scene understanding 54.,Agricultural Remote Sensing,AgroMind-optimized models,Gemini 1.5 Pro,LLaVA-NeXT-34B,mAP / Accuracy
+15,AgriDoctor Benchmark,"Multimodal image understanding benchmark for plant biodiversity, crop disease diagnosis, and agricultural monitoring with expert-verified annotations "64.,Multimodal Plant Health,AgriDoctor,Claude 3.5 Sonnet,InternVL2-26B,Top-1 Accuracy
+
+need to investigate more to add to the list to get the top 50 benchmark
